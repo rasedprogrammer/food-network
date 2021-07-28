@@ -1,0 +1,150 @@
+/* Default Area Style Start */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    background-image:linear-gradient(gold, goldenrod) ;
+    color: white;
+}
+
+span{
+    color: goldenrod;
+}
+
+/* Intro Area Start */
+.intro-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.website-intro{
+    margin: 30px;
+}
+
+.website-intro h1{
+    font-size: 50px;
+    color: #333;
+}
+
+
+.website-intro p{
+    font-size: 15px;
+    color: #222;
+}
+
+
+.website-logo-img img{
+    width: 80%;
+}
+/* About Area Start */
+
+.about-section{
+    height: 100vh;
+    background-image: url(images/bg-pic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-img img{
+    width: 60%;
+    margin-left: 200px;
+}
+
+.about-info{
+    margin-left: 250px;
+}
+.about-info p{
+    color: #111;
+}
+
+.about-info h1{
+    font-size: 40px;
+    color: gray;
+}
+/* Recipie Area Start */
+
+.recipie-heading{
+    text-align: center;
+}
+.recipie-heading h1{
+    font-size: 40px;
+    color: gray;
+}
+.recipie-heading p{
+    width: 60%;
+    margin: auto;
+    color: #222;
+}
+.recipie-blog-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recipie-blog{
+    margin: 3%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px gray;
+}
+
+.recipie-img img{
+    width: 100%;
+}
+
+.customer-section{
+    height: 40vh;
+}
+
+/* Discount Area Start */
+.discount-offer{
+    background-color: lightgray;
+    height: 40vh;
+    text-align: center;
+    padding: 5px;
+}
+
+.discount-offer h1{
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    color: gray;
+}
+
+.discount-offer p{
+    color: #333;
+}
+
+.discount-offer input{
+    margin-top: 20px;
+    outline: none;
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+/* Footer Area Start */
+.food-footer{
+    padding: 20px;
+    text-align: center;
+    width: auto;
+    height: 20vh;
+    background-color: #111;
+}
+.food-footer h1{
+    text-transform: uppercase;
+    color: gray;
+}
+.food-footer p{
+    color: white;
+}
